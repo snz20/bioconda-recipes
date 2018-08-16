@@ -23,14 +23,12 @@ requirements:
     - zlib
   run:
     - zlib
-    - python 2.7.*
-    - numpy 1.14.3
-    - pandas 0.19.2
-    - scikit-learn 0.19.1
-    - vowpalwabbit 8.3.0
-    - R 3.3.2
-    - biopython 1.70
-    - emboss 6.6.0
+    - python>=2.7.*
+    - numpy>=1.14.3
+    - pandas>=0.19.2
+    - scikit-learn>=0.19.1
+    - R>=3.3.2
+    - biopython>=1.70
 
 test:
   commands:

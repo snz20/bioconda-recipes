@@ -1,5 +1,6 @@
 #!/bin/bash
 pip install --no-deps vowpalwabbit
+conda install -c bioconda emboss
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 echo ========================================
 echo Setting up Genetic Data analysis Library and compiling utility tools
