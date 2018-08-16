@@ -16,8 +16,8 @@ requirements:
     - {{ compiler('c') }}
     - cmake
     - python
-    - pip
     - boost
+    - libtool
   host:
     - python
     - pip
