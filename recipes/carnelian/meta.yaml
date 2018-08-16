@@ -1,0 +1,40 @@
+package:
+  name: carnelian
+  version: 'v0.6.0'
+
+source:
+  url: https://github.com/snz20/carnelian/archive/v0.6.0.tar.gz
+  sha256: 9fa07bc519bfb4672d294544ed7be2c45c476eeeaacda5c9ec23aba6f4cc5572
+
+build:
+  number: 1
+  skip: True  # [osx]
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+    - {{ compiler('c') }}
+    - cmake
+  host:
+    - python
+    - pip
+    - zlib
+  run:
+    - zlib
+    - python 2.7.*
+    - numpy 1.14.3
+    - pandas 0.19.2
+    - scikit-learn 0.19.1
+    - vowpalwabbit 8.3.0
+    - R 3.3.2
+    - biopython 1.70
+    - emboss 6.6.0
+
+test:
+  commands:
+    - carnelian -h
+
+about:
+  home: http://carnelian.csail.mit.edu/
+  license: MIT
+  summary: Alignment-free functional binning of whole metagenomic sequencing reads 
