@@ -1,5 +1,11 @@
 #!/bin/bash
-pip install vowpalwabbit
+git clone https://github.com/JohnLangford/vowpal_wabbit.git
+cd vowpal_wabbit
+./autogen.sh
+./configure
+make
+make install
+cd ..
 conda install -c bioconda emboss
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 echo ========================================

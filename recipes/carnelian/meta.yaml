@@ -18,7 +18,6 @@ requirements:
     - python
     - pip
     - boost
-    - boost-python
   host:
     - python
     - pip
