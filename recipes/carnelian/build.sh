@@ -1,12 +1,12 @@
 #!/bin/bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-git clone https://github.com/JohnLangford/vowpal_wabbit.git
-cd vowpal_wabbit
-./autogen.sh
-./configure
-make
-make install
-cd ..
+#git clone https://github.com/JohnLangford/vowpal_wabbit.git
+#cd vowpal_wabbit
+#./autogen.sh
+#./configure
+#make
+#make install
+#cd ..
 conda install -c bioconda emboss
 echo ========================================
 echo Setting up Genetic Data analysis Library and compiling utility tools
