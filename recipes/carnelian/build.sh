@@ -1,5 +1,5 @@
 #!/bin/bash
-pip install --no-deps vowpalwabbit
+pip install vowpalwabbit
 conda install -c bioconda emboss
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 echo ========================================
