@@ -18,6 +18,8 @@ requirements:
     - python
     - boost
     - libtool
+    - automake
+    - autoconf
   host:
     - python
     - pip
