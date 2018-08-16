@@ -17,6 +17,7 @@ requirements:
     - cmake
     - python
     - pip
+    - boost
   host:
     - python
     - pip
