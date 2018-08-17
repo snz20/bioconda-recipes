@@ -1,5 +1,4 @@
 #!/bin/bash
-#echo ${PREFIX}
 export C_INCLUDE_PATH=${PREFIX}/include
 export CPLUS_INCLUDE_PATH=${PREFIX}/include
 export CPP_INCLUDE_PATH=${PREFIX}/include
