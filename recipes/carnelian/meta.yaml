@@ -26,12 +26,12 @@ requirements:
     - zlib
   run:
     - zlib
-    - python==2.7.3
-    - numpy==1.12.1
-    - pandas==0.19.2
-    - scikit-learn==0.19.1
-    - R==3.3.2
-    - biopython==1.70
+    - python=2.7.3
+    - numpy=1.12.1
+    - pandas=0.19.2
+    - scikit-learn=0.19.1
+    - R=3.3.2
+    - biopython=1.70
 
 test:
   commands:
