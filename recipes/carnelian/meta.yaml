@@ -3,8 +3,8 @@ package:
   version: 'v0.6.0'
 
 source:
-  url: https://github.com/snz20/carnelian/archive/v0.6.0.tar.gz
-  sha256: 9fa07bc519bfb4672d294544ed7be2c45c476eeeaacda5c9ec23aba6f4cc5572
+  url: https://github.com/snz20/carnelian/archive/v0.6.1.tar.gz
+  sha256: 462e617929e0f712a21dfad072328d07bf099f7c378b39fd5a7acf87a364da29
 
 build:
   number: 1
@@ -26,16 +26,16 @@ requirements:
     - zlib
   run:
     - zlib
-    - python>=2.7.*
-    - numpy>=1.14.3
-    - pandas>=0.19.2
-    - scikit-learn>=0.19.1
-    - R>=3.3.2
-    - biopython>=1.70
+    - python==2.7.3
+    - numpy==1.12.1
+    - pandas==0.19.2
+    - scikit-learn==0.19.1
+    - R==3.3.2
+    - biopython==1.70
 
 test:
   commands:
-    - carnelian -h
+    -python carnelian.py -h
 
 about:
   home: http://carnelian.csail.mit.edu/
